@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio | Rafael Gregório</title>
+    <link rel="stylesheet" href="assets/css/estilo-barra-menu.css">
+</head>
+<body>
+    <div>
+        <!--Menu-->
+        <input 
+            id="fechar-menu" 
+            class="fechar-menu" 
+            type="checkbox" 
+            aria-label="fechar-menu" 
+            role="button"
+        />
+        <label
+            class="label" 
+            for="fechar-menu"
+            title="fechar-menu">
+        </label>
+        <div class="menu">
+            <div class="menu-centro">
+                <div class="container centralizador">
+                    <nav class="nav">
+                        <ul onclick="getElementByid('fechar-menu').checked=false;">
+
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Experiências</a></li>
+                            <li><a href="#">Competencias</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="inicio">
+        <div class="centralizar">
+            <div class="img">
+                <img src="assets/img/eu.png" alt="" style="width: 280px;">
+            </div>
+            <div class="intro">
+                <p>Olá. Eu sou</p>
+                <div class="container2">
+                    <h1>Rafael Gregório de Oliveira.</h1>
+                </div>
+                <p>Desenvolvedor Front-end.</p>
+            </div>
+            <button class="btn">Linkedin</button>
+            <button class="btn">GitHub</button>
+        </div>
+    </section>
+</body>
+
+</html>
