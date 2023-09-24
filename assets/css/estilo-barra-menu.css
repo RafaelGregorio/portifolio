@@ -12,7 +12,8 @@
     --cor2:#8FB996;
     --cor3:#709775;
     --cor4:#415D43; 
-    --cor5:#111D13; 
+    --cor5:#111D13;
+    --cor6:#282B28; 
 }
 
 body {
@@ -72,7 +73,7 @@ a {
     width: 255px;
     height: 60px;
     margin-top: 20px;
-    background: #6CB275;
+    background: #709775;
     font-size: 20px;
     color: white;
     border-radius: 30px;
@@ -141,7 +142,7 @@ a {
     }
 
     a:hover {
-        color: #6CB275;
+        color: #709775;
     }
     
 
@@ -159,7 +160,7 @@ a {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        background: #6CB275;
+        background: #709775;
         color: white;
         font-size: 3rem;
         line-height: 3rem;
@@ -193,7 +194,7 @@ a {
         flex-direction: column;
         width: 100vw;
         height: 100vh;
-        background: #415D43;
+        background: #282B28;
     }
     
     .centralizar {
