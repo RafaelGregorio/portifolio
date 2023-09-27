@@ -23,14 +23,14 @@
         </label>
         <div class="menu">
             <div class="menu-centro">
-                <div class="container centralizador">
+                <div class="container centralizador-nav">
                     <nav class="nav">
                         <ul onclick="getElementByid('fechar-menu').checked=false;">
 
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Sobre</a></li>
-                            <li><a href="#">Experiências</a></li>
                             <li><a href="#">Competencias</a></li>
+                            <li><a href="#">Experiências</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -38,19 +38,21 @@
         </div>
     </div>
     <section class="inicio">
-        <div class="centralizar">
+        <div class="centralizador-inicio">
             <div class="img">
-                <img src="assets/img/eu.png" alt="" style="width: 280px;">
+                <img id="img-eu" src="assets/img/eu.png" alt="Eu">
             </div>
             <div class="intro">
                 <p>Olá. Eu sou</p>
-                <div class="container2">
+                <div class="container-nome">
                     <h1>Rafael Gregório de Oliveira.</h1>
                 </div>
                 <p>Desenvolvedor Front-end.</p>
+                <div id="btn-inicio">
+                    <button class="btn">Linkedin</button>
+                    <button class="btn">GitHub</button>
+                </div>
             </div>
-            <button class="btn">Linkedin</button>
-            <button class="btn">GitHub</button>
         </div>
     </section>
 </body>
