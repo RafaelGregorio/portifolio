@@ -9,7 +9,7 @@
 
 :root {
     --cor1:#A1CCA5;
-    --cor2:#8FB996;
+    --cor2:#4D6A51;
     --cor3:#709775;
     --cor4:#415D43; 
     --cor5:#111D13;
@@ -32,11 +32,17 @@ body {
     list-style: none;
 }    
 
-
 .nav > ul > li > a {
+    display: block;
     color: white;
-    text-decoration: none;
     font-size: larger;
+    text-decoration: none;
+    transition: tranform 0.2;
+}
+
+.nav > ul > li > a:hover {
+    color: var(--cor1);
+    transform: scale(1.11);
 }
 
 .fechar-menu {
@@ -73,7 +79,7 @@ body {
     color: white;
     border-radius: 10px;
     border: none;
-    background: #709775;
+    background: var(--cor2);
     transition: tranform 0.2;
 }
 
@@ -83,7 +89,7 @@ body {
 
 @media (max-width:768px) {
     .menu {
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -106,6 +112,10 @@ body {
         gap: 50px;
     }
 
+    .container-nome {
+        width: 365px;
+        font-size: 20px;
+    }
 
     .nav > ul {
         height: auto;
@@ -117,12 +127,11 @@ body {
     }
 
     .nav > ul > li > a {
-        display: block;
         font-size: 25px;
     }
 
-    .nav > li > ul > a:hover {
-        color: var(--cor3);
+    .nav > ul > li > a:hover {
+        color: var(--cor2);
     }
     
 
@@ -140,7 +149,7 @@ body {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        background: var(--cor3);
+        background: var(--cor2);
         color: white;
         font-size: 3rem;
         line-height: 3rem;
@@ -170,7 +179,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 96,2vw;
         height: 100vh;
         background: var(--cor6);
         color: white;
@@ -196,7 +205,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 30px; 
+        margin-top: 25px; 
     }
 
     .intro > p {
@@ -210,7 +219,7 @@ body {
     }
 
     .btn {
-        margin-top: 10px;
+        margin-top: 8px;
     }
 }
 
@@ -254,12 +263,11 @@ body {
     }
 
     .nav > ul > li > a {
-        display: block;
         font-size: 22px;
     }
 
     .nav > ul > li > a:hover {
-        color: #709775;
+        color: var(--cor2);
     }
     
 
